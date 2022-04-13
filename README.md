@@ -1,13 +1,13 @@
 To view all the options in WPCLI
 
 ```
-> wp cw-importer
+wp cw-importer
 ```
 
 This will show all the available options in this package
 
 ```
-	 imports           Show availabled imports
+	imports           Show availabled imports
      exports           Show availabled exports
      do-import         Do selected import
      do-export         Do selected export
@@ -16,7 +16,7 @@ This will show all the available options in this package
 To view all imports
 
 ```
-> wp cw-importer imports
+wp cw-importer imports
 ```
 
 Which shows available imports
@@ -34,7 +34,7 @@ Which shows available imports
 To run specific imports . For eg.
 
 ```
-> wp cw-importer do-import importactiveplugin --plugin_name=eventon-api 
+wp cw-importer do-import importactiveplugin --plugin_name=eventon-api 
 ```
 
 use the arguments as shown in help
@@ -42,13 +42,13 @@ use the arguments as shown in help
 To view all exports
 
 ```
-> wp cw-importer exports
+wp cw-importer exports
 ```
 
 Which shows all exports
 
 ```
-	   exportactiveplugin        Export active plugin
+	exportactiveplugin        Export active plugin
      exportcustomizersetting   Export customizer setting
      exportoptions             Export Options
      exporttheme               Export Themes
@@ -59,5 +59,5 @@ Which shows all exports
 To run specific exports. For eg.
 
 ```
-> wp cw-importer do-export exportactiveplugin
+wp cw-importer do-export exportactiveplugin
 ```
